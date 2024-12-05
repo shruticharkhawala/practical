@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/dr_sugiyama"
+        android:text="Shruti Charkhawala"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:background="#C470D1"
+        android:textStyle="italic|bold"
+        tools:layout_editor_absoluteX="129dp"
+        tools:layout_editor_absoluteY="303dp" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Enter Name"
+        android:background="@color/purple_200"
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="113dp"
+        tools:layout_editor_absoluteY="195dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@mipmap/abc"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="399dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
